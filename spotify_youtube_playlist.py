@@ -50,6 +50,7 @@ def main():
             new_file.write_audiofile(mp3_path)
             # Delete mp4s
             os.remove(mp4_path)
+main()
 
     # The folder should now have mp3 files in it
     # Go to spotify settings and enable local files and select folder
